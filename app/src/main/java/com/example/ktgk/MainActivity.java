@@ -23,11 +23,12 @@ public class MainActivity extends AppCompatActivity {
         edtcc = findViewById(R.id.edtcc);
         edtcn = findViewById(R.id.edtcn);
         btntinh = findViewById(R.id.btntinh);
-        double cc = Double.parseDouble(edtcc.getText().toString());
-        double cn = Double.parseDouble(edtcn.getText().toString());
+
         btntinh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                double cc = Double.parseDouble(edtcc.getText().toString());
+                double cn = Double.parseDouble(edtcn.getText().toString());
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                 intent.putExtra("cc",cc);
                 intent.putExtra("cn",cn);
