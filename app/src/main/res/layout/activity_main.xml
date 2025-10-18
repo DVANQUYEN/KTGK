@@ -38,7 +38,7 @@
                 android:text="Nhập chiều cao (m):" />
 
             <EditText
-                android:id="@+id/editTextText"
+                android:id="@+id/edtcc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -57,7 +57,7 @@
                 android:text="Nhập cân nặng (Kg): " />
 
             <EditText
-                android:id="@+id/editTextText2"
+                android:id="@+id/edtcn"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
